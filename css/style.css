@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  opacity: ;
+  opacity: 2;
 }
 .fh5co-hero .overlay, .fh5co-parallax .overlay {
   position: absolute;
@@ -287,13 +287,13 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .fh5co-social li a span {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   padding-left: 10px;
 }
 
@@ -312,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   padding: 8px 20px !important;
 }
+
 .btn.btn-sm {
   padding: 4px 15px !important;
 }
