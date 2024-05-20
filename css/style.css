@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 300;
@@ -148,24 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   display: inline;
 }
-#fh5co-header nav li a {
-  padding: 20px;
-  color: rgba(255, 255, 255, 0.7);
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
-#fh5co-header nav li a span {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  border-bottom: 2px solid transparent;
-  display: block;
-}
+
 @media screen and (max-width: 768px) {
   #fh5co-header nav li a {
     padding: 10px 2px;
@@ -173,15 +151,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header nav li a:hover {
   color: white;
-}
-#fh5co-header nav li a:hover span {
-  border-bottom: 2px solid #fff;
-}
-#fh5co-header nav li.fh5co-active a {
-  color: #fff;
-}
-#fh5co-header nav li.fh5co-active a span {
-  border-bottom: 2px solid #fff;
 }
 
 .fh5co-table,
@@ -196,6 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  opacity: ;
 }
 .fh5co-hero .overlay, .fh5co-parallax .overlay {
   position: absolute;
@@ -568,4 +538,4 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
